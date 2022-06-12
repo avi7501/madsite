@@ -35,6 +35,10 @@
     font-family:"Pacifico"; 
     margin-bottom:300px;
     font-size:150px;   
+
+  background: -webkit-linear-gradient(90deg, #28b487, #7dd56f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .checkbox {
 	opacity: 0;
@@ -128,4 +132,3 @@
     }
 }
     
-}
