@@ -86,7 +86,8 @@
 #down{
     margin-top:50px;
     margin-bottom:50px;
-    height:650px;
+    height:550px;
+    border-radius:30px;
     background-image: linear-gradient(90deg, #28b487, #7dd56f) !important;
     padding:200px;
     font-family: "Pacifico"; 
@@ -111,4 +112,20 @@
 }
 .fa-download{
     margin-right:10px;   
+}
+@media screen and (max-widt>500px){
+    #docket{
+        font-size:10px;
+    }
+    #down{
+        padding:100px;
+    }
+    #down h1{
+        font-size:50px;
+    }
+    #down p{
+        font-size:15px;
+    }
+}
+    
 }
